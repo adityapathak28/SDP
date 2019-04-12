@@ -11,10 +11,129 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <LinearLayout
+
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5sp"
+                android:paddingTop="5sp"
+                android:paddingRight="5sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/candit" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="80sp"
+                android:paddingTop="70sp"
+                android:text="School of C and IT"
+                android:textColor="@color/white"
+                android:textSize="80px"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageButton"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="5sp"
+                android:paddingTop="0dp"
+                android:paddingRight="5sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/scec" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80sp"
+                android:layout_marginTop="240sp"
+                android:text="School of E and C"
+                android:textColor="@color/white"
+                android:textSize="80px"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageButton2"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="5sp"
+                android:paddingTop="0dp"
+                android:paddingRight="5sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/scee" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100sp"
+                android:layout_marginTop="425sp"
+                android:text="School of EEE"
+                android:textColor="@color/white"
+                android:textSize="80px"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageButton3"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="5sp"
+                android:paddingTop="0dp"
+                android:paddingRight="5sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sccv" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="23sp"
+                android:layout_marginTop="600sp"
+                android:text="School of Civil Engineering"
+                android:textColor="@color/white"
+                android:textSize="80px"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageButton4"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="0dp"
+                android:paddingLeft="5sp"
+                android:paddingTop="0dp"
+                android:paddingRight="5sp"
+                android:scaleType="fitXY"
+                android:src="@drawable/scm" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="110sp"
+                android:layout_marginTop="775sp"
+                android:layout_marginRight="5sp"
+                android:text="School of ME"
+                android:textColor="@color/white"
+                android:textSize="80px"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
     </ScrollView>
+
 
 </android.support.constraint.ConstraintLayout>

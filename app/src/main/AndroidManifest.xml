@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".firstyearsdp"></activity>
+        <activity android:name=".Failure"></activity>
+        <activity android:name=".Success" />
+        <activity android:name=".Form" />
+        <activity android:name=".SCME" />
+        <activity android:name=".SCCV" />
+        <activity android:name=".SCEE" />
+        <activity android:name=".SCEC" />
+        <activity android:name=".SCIT" />
+        <activity android:name=".firstyearsdp" />
         <activity android:name=".fourthyear" />
         <activity android:name=".thirdyear" />
         <activity android:name=".secondyear" />

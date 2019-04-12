@@ -12,7 +12,7 @@ public class firstyear extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_firstyear);
         setTitle("First Year");
-        ActionBar actionBar = getSupportActionBar();
+        ActionBar actionBar =getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
 

@@ -13,6 +13,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.ImageButton;
+
+import java.security.spec.ECField;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -23,6 +27,73 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        ImageButton imgbtn = findViewById(R.id.imageButton);
+        imgbtn.setOnClickListener(new View.OnClickListener()
+        {
+
+            @Override
+            public void onClick(View v)
+            {
+                Intent cs = new Intent(getApplicationContext(), SCIT.class);
+                startActivity(cs);
+            }
+
+        });
+
+        ImageButton imgbtn2 = findViewById(R.id.imageButton2);
+        imgbtn2.setOnClickListener(new View.OnClickListener()
+        {
+
+            @Override
+            public void onClick(View v)
+            {
+                Intent ec = new Intent(getApplicationContext(), SCEC.class);
+                startActivity(ec);
+            }
+
+        });
+
+        ImageButton imgbtn3 = findViewById(R.id.imageButton3);
+        imgbtn3.setOnClickListener(new View.OnClickListener()
+        {
+
+            @Override
+            public void onClick(View v)
+            {
+                Intent ee = new Intent(getApplicationContext(), SCEE.class);
+                startActivity(ee);
+            }
+
+        });
+
+        ImageButton imgbtn4 = findViewById(R.id.imageButton4);
+        imgbtn4.setOnClickListener(new View.OnClickListener()
+        {
+
+            @Override
+            public void onClick(View v)
+            {
+                Intent cv = new Intent(getApplicationContext(), SCCV.class);
+                startActivity(cv);
+            }
+
+        });
+
+        ImageButton imgbtn5 = findViewById(R.id.imageButton5);
+        imgbtn5.setOnClickListener(new View.OnClickListener()
+        {
+
+            @Override
+            public void onClick(View v)
+            {
+                Intent me = new Intent(getApplicationContext(), SCME.class);
+                startActivity(me);
+            }
+
+        });
+
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
