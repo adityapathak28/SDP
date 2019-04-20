@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "701082833541",
+    "firebase_url": "https://reva-sdp-app.firebaseio.com",
+    "project_id": "reva-sdp-app",
+    "storage_bucket": "reva-sdp-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701082833541:android:cd565dc00c41ed41",
+        "android_client_info": {
+          "package_name": "com.revauniversity.revasdpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701082833541-cmpmm1o9oqasctjnlvkh1di2854crldv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.revauniversity.revasdpapp",
+            "certificate_hash": "98bb1412f68acf29e3bc04e76c27217f711c2386"
+          }
+        },
+        {
+          "client_id": "701082833541-hq27h4rjegjpm1cbqnif84efk22692ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAlFe0xh-nZl_8MZM3htXBkhGD2apxmd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701082833541-hq27h4rjegjpm1cbqnif84efk22692ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Form">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/regis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="330px"
+                android:text="Registration"
+                android:textSize="80px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nametext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/regis"
+                android:layout_marginLeft="30px"
+                android:text="Name"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametext"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="-20px"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/srntext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="30px"
+                android:text="SRN"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/srn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/srntext"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="-20px"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/emailtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/srn"
+                android:layout_marginLeft="30px"
+                android:text="Email"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emailtext"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="-20px"
+                android:inputType="textEmailAddress"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/phonetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:layout_marginLeft="30px"
+                android:text="Contact number"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phonetext"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="-20px"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/schooltext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone"
+                android:layout_marginLeft="30px"
+                android:text="School"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/schooltext"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="-20px"
+                android:editable="false"
+                android:textSize="80px" />
+
+            <TextView
+                android:id="@+id/yeartext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school"
+                android:layout_marginLeft="30px"
+                android:text="Year"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/yeartext"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="-20px"
+                android:editable="false"
+                android:textSize="80px" />
+            <TextView
+                android:id="@+id/progtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/year"
+                android:layout_marginLeft="30px"
+                android:text="SDP Program"
+                android:textSize="50px" />
+
+            <EditText
+                android:id="@+id/prog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/progtext"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="-20px"
+                android:editable="false"
+                android:textSize="80px" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/prog"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="50px"
+                android:text="Register" />
+            <Button
+                android:id="@+id/retrieve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="50px"
+                android:text="Retrieve" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

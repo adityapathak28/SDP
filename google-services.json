@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "701082833541",
+    "firebase_url": "https://reva-sdp-app.firebaseio.com",
+    "project_id": "reva-sdp-app",
+    "storage_bucket": "reva-sdp-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701082833541:android:cd565dc00c41ed41",
+        "android_client_info": {
+          "package_name": "com.revauniversity.revasdpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701082833541-hq27h4rjegjpm1cbqnif84efk22692ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAlFe0xh-nZl_8MZM3htXBkhGD2apxmd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SCIT">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/fy"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:text="First Year Programmes" />
+            <Button
+                android:id="@+id/sy"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="130dp"
+                android:text="Second Year Programmes" />
+            <Button
+                android:id="@+id/ty"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="250dp"
+                android:text="Third Year Programmes" />
+            <Button
+                android:id="@+id/foy"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="370dp"
+                android:text="Fourth Year Programmes" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
